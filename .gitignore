@@ -1,0 +1,184 @@
+# Created specifically for Unhabit iOS project
+# iOS Swift/Xcode specific
+
+## Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+xcuserdata/
+*.xcuserstate
+*.xcworkspace
+*.xccheckout
+*.xcscmblueprint
+*.xcsettings
+*.xcscheme
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+*.storyboardc
+*.1
+*.moved-aside
+
+## Build
+build/
+DerivedData/
+*.build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Swift Package Manager
+/.build/
+/Packages/
+/*.xcodeproj
+.swiftpm/
+Package.resolved
+.build/
+.package.build/
+
+## CocoaPods
+Pods/
+Podfile.lock
+*.xcworkspace
+
+## Carthage
+Carthage/
+Cartfile.resolved
+
+## Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+## App Store Connect / Certificates
+*.cer
+*.p12
+*.mobileprovision
+*.provisionprofile
+AppStoreCredentials/
+AuthKey_*.p8
+
+## Configuration files with sensitive data
+*.plist
+Config.swift
+Secrets.swift
+GoogleService-Info.plist
+*.env
+.env.local
+.env.*.local
+!GoogleService-Info-Sample.plist
+
+## Local development overrides
+LocalOverrides.swift
+LocalConfig.xcconfig
+
+## IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+## Temporary files
+*.log
+*.tmp
+*.cache
+temp/
+
+## Crashlytics / Firebase
+crashlytics.log
+firebase-debug.log
+
+## App specific - Unhabit
+# Local database files if any
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# User defaults backup
+UserDefaultsBackup/
+
+# Debug logs
+debug.log
+activity_log.txt
+
+## Version control
+.git-rewrite/
+
+## SwiftLint
+.swiftlint.yml
+
+## SwiftFormat
+.swiftformat
+
+## Tuist
+.tuist-bin/
+.tuist-cache/
+
+## Periphery
+.periphery.yml
+
+## Mint
+.mint/
+
+## Playgrounds
+*.playground/
+
+## Previews
+Previews/
+
+## SwiftUI Previews cache
+DerivedData/Previews/
+
+## Rosetta (Apple Silicon)
+RosettaStone/
+
+## App thinning
+*.bcsymbolmap
+*.bcsymbolmap.plist
+
+## Core Data
+*.mom
+*.momd
+*.omo
+*.map
+
+## Localization
+*.lproj/localizable.strings
+
+## Documentation
+docs/build/
+jazzy/
+docs/gh-pages/
+
+## Test coverage
+*.profdata
+*.gcda
+*.gcno
+
+## LLDB
+lldb/
+*.pyc
+
+## Xcode Cloud
+xcodecloud/
+
+## SonarQube
+.sonar/
+.sonarlint/
+
+## Danger
+danger/
+Dangerfile.*

@@ -42,6 +42,7 @@ private let suiteName = "group.com.YOUR_TEAM_ID.Unhabit"
 Выберите ваш Team в разделе "Signing"
 Добавьте Capability "App Groups"
 Создайте/выберите App Group: group.com.YOUR_TEAM_ID.Unhabit или в автоматическом режиме: group.$(TeamIdentifierPrefix).$(PRODUCT_BUNDLE_IDENTIFIER)
+
 2. Необходимые Entitlements
 
 Убедитесь, что в Info.plist добавлены:
@@ -51,12 +52,14 @@ xml
 <true/>
 <key>NSSupportsActivityKit</key>
 <true/>
+
 3. Конфигурация таргетов
 
 Проект содержит две цели:
 
 Unhabit - Основное приложение
 Unhabit_widget - Виджет и Live Activities
+
 Для каждой цели необходимо:
 
 Настроить Bundle Identifier (например: com.yourcompany.Unhabit и com.yourcompany.Unhabit.Unhabit-widget)
@@ -79,12 +82,13 @@ Unhabit_widget - Виджет и Live Activities
 При первом запуске задайте временное окно курения
 Укажите текущее количество сигарет в день (для расчета интервалов)
 Выберите уровень сложности
+
 Основные функции
 
 Запуск таймера - кнопка "play" в центре
 Изменение количества - кнопки +/- (доступно когда таймер не активен)
 Прогресс - отображение этапа уменьшения
-Настройки - шестеренка в правом верхнем углу
+
 Особенности работы
 
 Таймер автоматически останавливается при завершении

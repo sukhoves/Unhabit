@@ -39,7 +39,7 @@ private let suiteName = "group.com.YOUR_TEAM_ID.Unhabit"
 
 Выберите ваш Team в разделе "Signing"
 Добавьте Capability "App Groups"
-Создайте/выберите App Group: group.com.YOUR_TEAM_ID.Unhabit
+Создайте/выберите App Group: group.com.YOUR_TEAM_ID.Unhabit или в автоматическом режиме: group.$(TeamIdentifierPrefix).$(PRODUCT_BUNDLE_IDENTIFIER)
 2. Необходимые Entitlements
 
 Убедитесь, что в Info.plist добавлены:
